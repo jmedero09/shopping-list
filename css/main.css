@@ -3,9 +3,9 @@ body{
 	background-image: url('../images/marble-background.jpg');
 
 }
-*{
+/**{
 	border: solid 1px;
-}
+}*/
 .list-area>h1{
 	text-align: center;
 	font-weight:bold;
@@ -26,6 +26,7 @@ ul li{
 	font-size: 25px;
 	line-height: 55px;
 	list-style-type: none;
+
 }
 .list-area span{
 	padding-right: 15px;
@@ -36,7 +37,7 @@ ul li{
 	display: inline-block;
 }
 .vader-container{
-	display: inline;
+	display: inline-block;
 	margin-left: 10px;
 	
 }
@@ -44,20 +45,18 @@ ul li{
 	width: 20px;
 
 }
-form{
-	display: block;
-	text-align: center;
+.form{
+	display: inline-block;
+	width:445px;
+	margin:0 auto;
+	text-align:center;
 }
 
-form >.quanity{
+.form >.quanity{
 	width:35px;
 	text-align: center;
-	margin-left:auto;
-	margin-right: auto;
-	display: inline-block;
-}
-form .text{
-	display:inline-block;
+	}
+.form .text{
 }
 button{
 	padding: 0 15px;
